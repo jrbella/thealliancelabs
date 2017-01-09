@@ -1,4 +1,4 @@
-
+/* fonts Nobile and Candal*/
 /*--------------------------
 ------- body (GENERAL)-
 ---------------------------*/
@@ -25,13 +25,13 @@
 
 body {
 
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Nobile', sans-serif;
 }
 
 /* removes underlines on links */
 a {
 	text-decoration: none;
-	color: #6ab47b;
+	color: #7a9eea;
 }
 
 img{
@@ -45,7 +45,7 @@ header {
 	margin: 0 0 30px;
 	padding: 5px 0 0 0;
 	width: 100%;
-	background-color: #6ab47b;
+	background-color: #0F1626;
 	border-color: #599a68;
 }
 
@@ -53,24 +53,29 @@ header {
 	text-align: center;
 	margin: 0;
 }
+#logo h2 {
+	color: white;
+}
 
  h1 {
 	color: #fff;
-	font-family: 'Changa One', sans-serif;
+	font-family: 'Candal', sans-serif;
 	margin: 15px 0;
 	font-size: 1.75em;
 	font-weight: normal;
 	line-height: 0.8em;
 }
-h2 {
+h2, {
 	font-size: 0.75em;
 	margin: -5px 0 0;
 	font-weight: normal;
 	color: #fff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Nobile', sans-serif;
 
 }
-
+h3 {
+	color: #0F1626;
+}
 
 
 /*--------------------------
@@ -110,17 +115,17 @@ nav a:visited {
 }
 
 nav a:hover {
-	color:#fff;
+	color:#EAC67A;
 }
 
 nav a.selected {
-	color: #fff;
+	color: #EAC67A;
 }
 nav {
 	text-align: center;
 	padidng: 10px 0;
 	margin: 20px 0 0;
-	background: #599a68;
+	background: #261f0f;
 
 }
 
@@ -139,11 +144,35 @@ nav li {
 }
 
 /*--------------------------
-------- PAGE ABout----------------
+------- PAGE ABOUT----------------
 ---------------------------*/
 .profile-photo {
 	display: block;
 	max-width: 250px;
 	margin: 0 auto 30px;
 	border-radius: 100%;
+}
+/*--------------------------
+------- CONTACT----------------
+---------------------------*/
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
 }

@@ -137,3 +137,13 @@ nav ul  {
 nav li {
 	display: inline-block;
 }
+
+/*--------------------------
+------- PAGE ABout----------------
+---------------------------*/
+.profile-photo {
+	display: block;
+	max-width: 250px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}

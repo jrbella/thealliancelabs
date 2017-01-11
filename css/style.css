@@ -33,6 +33,9 @@ a {
 	text-decoration: none;
 	color: #7a9eea;
 }
+p {
+	color: #fff;
+}
 
 img{
 	max-width: 100%;
@@ -74,7 +77,7 @@ h2, {
 
 }
 h3 {
-	color: #0F1626;
+	color: #fff;
 }
 
 
@@ -100,9 +103,12 @@ footer {
 
 
 #wrapper {
+	background-image: url(../img/background.jpg);
 	max-wdth: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
+	width: 100%;
+	height: 100vh;
 	
 }
  /*--------------------------
@@ -161,6 +167,7 @@ nav li {
 	padding: 0;
 	margin: 0;
 	font-size: 0.9em;
+
 }
 
 .contact-info li.mail a {

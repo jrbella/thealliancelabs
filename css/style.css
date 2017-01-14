@@ -9,6 +9,7 @@
 }
 
 #gallery li {
+
 	float: left;
 	width: 45%;
 	margin: 2.5%;
@@ -104,7 +105,7 @@ footer {
 
 #wrapper {
 	background-image: url(../img/background.jpg);
-	max-wdth: 940px;
+	max-wdth: 100%;
 	margin: 0 auto;
 	padding: 0 5%;
 	width: 100%;
@@ -153,10 +154,11 @@ nav li {
 ------- PAGE ABOUT----------------
 ---------------------------*/
 .profile-photo {
+	
 	display: block;
 	max-width: 250px;
 	margin: 0 auto 30px;
-	border-radius: 100%;
+	border-radius: 90%;
 }
 /*--------------------------
 ------- CONTACT----------------
@@ -169,6 +171,8 @@ nav li {
 	font-size: 0.9em;
 
 }
+#aboutText {
+
 
 .contact-info li.mail a {
   background-image: url('../img/mail.png');
@@ -184,3 +188,4 @@ nav li {
 	padding: 0 0 0 30px;
 	margin: 0 0 10px;
 }
+

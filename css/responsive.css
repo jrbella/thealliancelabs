@@ -28,10 +28,8 @@ Media Queries
 			-------------------------*/
 			#gallery li {
 				width: 28.3333%;
-			}7
-			#gallery li: nth-child(4n) {
-				clear: left;
 			}
+			
 			/*-------------------------
 			PAGE: ABOUT;
 			-------------------------*/
@@ -61,7 +59,7 @@ Media Queries
 			float:left;
 			margin-left: 5%;
 			text-align: left;
-			width: 45;
+			width: 45%;
 		}
 		h1 {
 			font-size: 2.5em;
@@ -73,6 +71,7 @@ Media Queries
 		header {
 			border-bottom: 5px solid #599868;
 			margin-bottom: 60px;
+			width: 100%;
 		}
 	
 }

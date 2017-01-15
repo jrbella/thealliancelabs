@@ -118,7 +118,7 @@ footer {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	
 }
 #wrapperContact{
@@ -181,8 +181,17 @@ nav li {
 	
 	display: block;
 	max-width: 250px;
-	margin: 0 auto 30px;
+	margin: 0 0 0 0;
 	border-radius: 90%;
+}
+#miniDiv {
+
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#aboutWrapper {
+	margin-left: 5%;
+	margin-right: 5%;
 }
 /*--------------------------
 ------- CONTACT----------------
@@ -210,4 +219,9 @@ nav li {
 	padding: 0 0 0 30px;
 	margin: 0 0 10px;
 }
+	/*--------------------------
+	------- DIV contactContent--
+	---------------------------*/
+
+	
 

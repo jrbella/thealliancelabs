@@ -35,12 +35,15 @@ Media Queries
 			-------------------------*/
 			.profile-photo {
 				float: left;
-				margin: 0 5% 80px 0;
+				margin: 5px 5% 0 25%;
 			}
 			#aboutWrapper {
 				max-width: 100%;
-				margin: 0  00 0%;
+				margin: 0 10% 0 10% ;
 				padding: 0;
+			}
+			#miniDiv {
+				margin: 0 5% 0 5%;
 			}
 
 }
@@ -81,11 +84,23 @@ Media Queries
 			margin-bottom: 60px;
 			width: 100%;
 		}
+			/*-------------------------
+			PAGE: ABOUT;
+			-------------------------*/
+			.profile-photo {
+				float: left;
+				margin: 5px 0 0 -15%;
+			}
 		#aboutWrapper {
 				max-width: 100%;
-				margin: 0  45% 0 0%;
+				margin: 0  45% 0 10%;
 				padding: 0;
 			}
+			#miniDiv  {
+				margin: 0 5% 0 15%;
+				max-height: 80%;
+			}
+
 
 	
 }

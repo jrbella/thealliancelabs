@@ -118,7 +118,7 @@ footer {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	
 }
 #wrapperContact{
@@ -190,9 +190,17 @@ nav li {
 	margin-right: 5%;
 }
 #aboutWrapper {
+	height: 100%;
 	margin-left: 5%;
 	margin-right: 5%;
 }
+#wrapperAbout {
+	background-image: url(../img/background.jpg);
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
 /*--------------------------
 ------- CONTACT----------------
 ---------------------------*/
